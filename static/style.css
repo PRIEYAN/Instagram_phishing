@@ -44,16 +44,17 @@ body {
   outline: none;
   font-size: 14px;
 }
-
-.button-box .btn {
+.btn {
   width: 100%;
-  padding: 10px;
+  padding: 8px;
   background-color: #3897f0;
   border: none;
   color: #fff;
   border-radius: 4px;
   font-size: 16px;
   cursor: pointer;
+  position:relative;
+  left :12px;
 }
 
 .button-box .btn:hover {
@@ -69,7 +70,10 @@ body {
 }
 
 .text {
+align-items:center;
   margin-top: 15px;
+  position:relative;
+  left:50px;
   font-size: 14px;
   color: #fff;
 }
